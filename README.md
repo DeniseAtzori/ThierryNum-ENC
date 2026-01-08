@@ -146,7 +146,7 @@ Una prima fase di digitalizzazione sul patrimonio armeno e georgiano, destinata 
 - Errori nelle annotazioni manuali di alcune immagini (non seguono sempre i nodi dell'alberatura) -> soluzione: correzione con uno script
 - Insufficienza di dati annotati per ogni classe nel livello 2 -> soluzione: clustering non supervisionato per il tag_2
 
-## **Deliverabili (in questa cartella)**
+## **Consegnati (in questa cartella)**
 - ### **Codice sotto forma di notebook e codice py:**
     - **1-extraction_annotations.ipynb**: scraping delle immagini con annotazioni manuali e creazione CSV
     - **2-training_yolo_tag1.ipynb**: pre-processing dei dati e addestramento Yolov11n-cls per il primo livello
