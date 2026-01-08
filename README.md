@@ -9,11 +9,11 @@
 
 # Pré-indexation automatique des premiers lots de numérisations du fonds Nicole et Jean-Michel Thierry de l'INHA: Institut national d'histoire de l'art
 
-Projet réalisé par **Denise Atzori**, **Thaïs Raffray** et **Chiara Tedesco** dans le cadre d'une semaine de Hackathon organisée par l'École nationale des Chartes - PSL
+Projet réalisé par **Denise Atzori**, **Thaïs Raffray** et **Chiara Tedesco** dans le cadre d'une semaine de Hackathon organisée par l'École nationale des Chartes - PSL.
 
 ## **Contexte**
 Le fonds Nicole et Jean-Michel Thierry: env. 100 000 photographies, films et dossiers de documentation et de recherche - 1950-2017.
-Un premier volet de numérisations sur le patrimoine arménien et géorgien, destiné à être documenté par une communauté d’experts
+Un premier volet de numérisations sur le patrimoine arménien et géorgien, destiné à être documenté par une communauté d’experts.
 
 ## **Corpus et données**
 - 297 lots d’archives structurés en manifestes IIIF et présentant un corpus de 8196 vues
@@ -68,7 +68,7 @@ Project carried out by **Denise Atzori**, **Thaïs Raffray** and **Chiara Tedesc
 
 ## **Context**
 The Nicole and Jean-Michel Thierry collection: approx. 100,000 photographs, films and documentation and research files - 1950-2017.
-A first phase of digitizations on Armenian and Georgian heritage, intended to be documented by a community of experts
+A first phase of digitizations on Armenian and Georgian heritage, intended to be documented by a community of experts.
 
 ## **Corpus and data**
 - 297 archival batches structured as IIIF manifests and presenting a corpus of 8196 views
@@ -119,11 +119,11 @@ A first phase of digitizations on Armenian and Georgian heritage, intended to be
 
 # Pre-indicizzazione automatica dei primi lotti di digitalizzazioni del fondo Nicole e Jean-Michel Thierry dell'INHA: Institut national d'histoire de l'art
 
-Progetto realizzato da **Denise Atzori**, **Thaïs Raffray** e **Chiara Tedesco** nel quadro di una settimana di Hackathon organizzata dall'École nationale des Chartes - PSL
+Progetto realizzato da **Denise Atzori**, **Thaïs Raffray** e **Chiara Tedesco** nel quadro di una settimana di Hackathon organizzata dall'École nationale des Chartes - PSL.
 
 ## **Contesto**
 Il fondo Nicole e Jean-Michel Thierry: circa 100.000 fotografie, film e dossier di documentazione e ricerca - 1950-2017.
-Una prima fase di digitalizzazione sul patrimonio armeno e georgiano, destinata a essere documentata da una comunità di esperti
+Una prima fase di digitalizzazione sul patrimonio armeno e georgiano, destinata a essere documentata da una comunità di esperti.
 
 ## **Corpus e dati**
 - 297 lotti d'archivio strutturati in manifesti IIIF e contenenti un corpus di 8196 viste
