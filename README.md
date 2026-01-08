@@ -37,7 +37,7 @@ Un premier volet de numérisations sur le patrimoine arménien et géorgien, des
     - 6-clustering_dino.ipynb: inferénce et clustering (non-supervisé) avec Dinov2 pour le deuxième niveau
     - 7-clustering_efficentnet.ipynb: inferénce et clustering (non-supervisé) avec EfficientNetv7 pour le deuxième niveau
     - 8-fusioner_clustering_images.ipynb: script pour fusioner les resultats du clustering (tag_2) dans le CSV des images
-    - 9-interface_validation.py: app streamlit pour la validation manuelle des annotations (à lancer avec les instruction dans instruction_streamlit.txt)
+    - 9-IAnahid.py: app streamlit pour la validation manuelle des annotations et la génération des légendes(à lancer avec les instruction dans instruction_streamlit.txt)
 - ### Modèles:
     - Dossier Yolo best-unbalaced: poids du modèle, result.csv et confusion_matrix d'un modèle Yoloy11n-cls entraîné avec un dataset déséquilibré sur les photographies (tag_1)
     - Dossier Yolo best-balaced: poids du modèle, result.csv et confusion_matrix d'un modèle Yoloy11n-cls entraîné avec un dataset équilibré sur toutes les classes (tag_1)
@@ -46,7 +46,7 @@ Un premier volet de numérisations sur le patrimoine arménien et géorgien, des
     - images_inference.csv: resultat de l'inference de Yolo (balanced)
     - images_test_clustering: dossier avec une centaines des photo de test pour le clustering du tag_2
     - clustering_results(dino/eff).csv: resultats du clustering de Dino et EfficentNet
-    - instruction_streamlit.txt: informations pour lancer streamlit
-    - exemple_annotation_automatique.csv: fichier csv avec tous les résultats des annotations automatiques prêts pour validation dans l'app streamlit
+    - instruction_IAnahid.txt: informations pour lancer streamlit
+    - exemple.csv: fichier avec un clustering aléatoire pour essayer l'appli
 
 
