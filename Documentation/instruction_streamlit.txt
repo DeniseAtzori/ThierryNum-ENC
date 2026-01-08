@@ -1,0 +1,5 @@
+Comment utiliser l'app streamlit ?
+
+1. Installez Streamlit dans votre environnement : pip install streamlit pandas.
+2. Placez votre fichier "images_with_links.csv" dans le même dossier que le script.
+3. Lancez l'app sur le terminal : streamlit 9-interface_validation.py.
