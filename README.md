@@ -55,7 +55,7 @@ Un premier volet de numérisations sur le patrimoine arménien et géorgien, des
     - **images_inference.csv**: resultat de l'inference de Yolo (balanced)
     - **images_test_clustering**: dossier avec une centaines des photo de test pour le clustering du tag_2
     - **clustering_results(dino/eff).csv**: resultats du clustering de Dino et EfficentNet
-    - **instruction_IAnahid.txt**: informations pour lancer streamlit
+    - **instruction_IAnahid.md**: informations pour lancer streamlit
     - **exemple.csv**: fichier avec un clustering aléatoire pour essayer l'app
 
 ---
