@@ -9,11 +9,19 @@ import random
 from mistralai import Mistral
 
 # --- CONFIGURATION DE LA PAGE ---
-st.set_page_config(page_title="Correcteur Clustering & IA", layout="wide")
+st.set_page_config(page_title="Correcteur Clustering, Classification & Génération de Légende (IA)", layout="wide")
 
 st.markdown("""
     <style>
-    .stImage > img { max-height: 40vh; width: auto; margin: auto; display: block; border-radius: 10px; border: 1px solid #ddd; }
+    .stImage > img { 
+        max-height: 40vh; 
+        width: auto; 
+        margin: auto; 
+        display: block; 
+        border-radius: 10px; 
+        border: 2px solid #f0f2f6;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
     .stTextArea textarea { font-size: 1.1rem; }
     .stButton button { width: 100%; border-radius: 5px; }
     .nav-info { text-align: center; font-weight: bold; padding: 10px; background: #f0f2f6; border-radius: 5px; }
@@ -22,6 +30,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+
 CSV_PATH = "random.csv"
 
 PROMPT_MISTRAL = """Règles :
@@ -29,7 +38,11 @@ PROMPT_MISTRAL = """Règles :
 * Ne pas interpréter le sens, le symbolisme ou le contexte historique.
 * Employer un langage précis, neutre et documentaire.
 * Rédiger en phrases complètes (paragraphe), 2-3 lignes maximum.
-Sortie : Une légende unique adaptée à un catalogue d'archive patrimoniale."""
+Sortie : Une légende unique adaptée à un catalogue d'archive patrimoniale.
+Structure de la description :
+Environnement bâti et éléments architecturaux, Contexte spatial et paysage environnant, Objets et matériaux, Figures humaines (le cas échéant), Animaux (le cas échéant)
+Sortie attendue :
+Une légende unique et développée (2-3 lignes max), adaptée à un catalogue d’archive patrimoniale."""
 
 VOCAB_TAG_2 = ["2.1 Architecture", "2.2 Objet", "2.3 Personne", "2.4 Paysage", "2.5 Animal", "2.6 Végétal"]
 
@@ -92,7 +105,7 @@ with st.sidebar:
     
     st.subheader("🔑 API Mistral")
     api_key = st.text_input("Clé API Mistral", type="password")
-    model_name = st.selectbox("Modèle", ["pixtral-12b-2409", "ministral-8b-2512", "mistral-medium-2508"])
+    model_name = st.selectbox("Modèle", ["ministral-8b-2512", "mistral-medium-2508", "pixtral-12b-2409"])
     
     st.divider()
     if mode != "Validation par Cluster":
@@ -218,7 +231,7 @@ else:
     with col_nav3:
         st.markdown(f"<div class='nav-info'>{idx + 1} / {total}</div>", unsafe_allow_html=True)
 
-    st.image(row['image_url'], caption=f"ID: {row.get('title', 'Sans titre')} | Cluster: {row.get('clustering_id', 'N/A')}")
+    st.image(row['image_url'], caption=f"ID: {row.get('title', 'Sans titre')} | Cluster: {row.get('clustering_id', 'N/A')}", width=800)
 
     st.write("---")
 
