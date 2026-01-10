@@ -1,6 +1,6 @@
-<img src="https://www.chartes.psl.eu/themes/custom/arc_enc/logo.svg" width="58" height="56"/>
-<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2024-04/2021_inha_20_ans_version_simple_rvb_144x463.png?itok=LNZuSrlh" width="58" height="56"/>
-<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2026-01/dim-pamir.png?itok=uex4GUSy" width="58" height="56"/>
+<img src="https://www.chartes.psl.eu/themes/custom/arc_enc/logo.svg" width="80" height="80"/>
+<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2024-04/2021_inha_20_ans_version_simple_rvb_144x463.png?itok=LNZuSrlh" width="80" height="80"/>
+<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2026-01/dim-pamir.png?itok=uex4GUSy" width="80" height="80"/>
 
 # Table of Contents / Indice
 * [Français (Original)](#français)
