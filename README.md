@@ -57,6 +57,8 @@ Un premier volet de numérisations sur le patrimoine arménien et géorgien, des
     - **Dossier Yolo best-unbalaced**: poids du modèle, result.csv et confusion_matrix d'un modèle Yoloy11n-cls entraîné avec un dataset déséquilibré sur les photographies (tag_1)
     - **Dossier Yolo best-balaced**: poids du modèle, result.csv et confusion_matrix d'un modèle Yoloy11n-cls entraîné avec un dataset équilibré sur toutes les classes (tag_1)
 - ### **Dossier Documentation:**
+    - **Documentation_ThierryNum-ENC.pdf**: compte-rendu du travail pendant l'hackathon
+    - **requirements.txt**: liste des requirements à installer pour que le code fonctionne
     - **images_test_inference**: dossier avec une centaines des images pour tester l'inference du tag_1
     - **images_inference.csv**: resultat de l'inference de Yolo (balanced)
     - **images_test_clustering**: dossier avec une centaines des photo de test pour le clustering du tag_2
