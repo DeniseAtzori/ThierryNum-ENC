@@ -1,6 +1,8 @@
-<img src="https://www.chartes.psl.eu/themes/custom/arc_enc/logo.svg" width="80" height="80"/>
-<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2024-04/2021_inha_20_ans_version_simple_rvb_144x463.png?itok=LNZuSrlh" width="80" height="80"/>
-<img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2026-01/dim-pamir.png?itok=uex4GUSy" width="80" height="80"/>
+<p align="center">
+  <img src="https://www.chartes.psl.eu/themes/custom/arc_enc/logo.svg" height="100" alt="Logo ENC" style="margin-right:20px;" />
+  <img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2024-04/2021_inha_20_ans_version_simple_rvb_144x463.png?itok=LNZuSrlh" height="100" alt="Logo INHA" style="margin-right:20px;" />
+  <img src="https://www.chartes.psl.eu/sites/default/files/public/styles/default_medium/public/media/image/2026-01/dim-pamir.png?itok=uex4GUSy" height="100" alt="Logo PAMIR" />
+</p>
 
 # Table of Contents / Indice
 * [Français (Original)](#français)
